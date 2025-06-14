@@ -8,6 +8,7 @@ const path = require('path')
 const app = express()
 
 const authRoutes = require("./routes/authRoutes")
+
 // middleware for cors 
 
 app.use(cors({
